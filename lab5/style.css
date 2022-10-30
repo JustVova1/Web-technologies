@@ -1,0 +1,33 @@
+body{
+    color: #fff;
+    background-image: url(back.png) ;
+    background-repeat: repeat-y;
+}
+.lime{
+    color: lime;
+}
+#italic{
+    font-style:italic;
+}
+.green{
+    color:green;
+    font-size: 20px;
+}
+.maroon{
+    color: maroon;
+}
+.paragraph_1{
+    color: yellow;
+    font-size: 15px;
+    text-align:justify;
+    text-indent:15px;
+}
+.paragraph_2{
+    color: blue;
+    font-size: 14px;
+    text-decoration: blink underline ;
+}
+.paragraph_3{
+    text-align:justify;
+    line-height: 10px;
+}
