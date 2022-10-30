@@ -1,0 +1,63 @@
+h1{
+    text-align: center;
+}
+.luvr{
+    float: right;
+    width: 150px;
+    
+}
+.gallery{
+    width: 150px;
+    
+}
+.gallery:hover{
+    animation-name:animation;
+    animation-duration:6s ;
+    animation-iteration-count:infinite;
+    animation-timing-function:linear;
+}
+.map_img{
+    width: 400px;
+}
+@keyframes animation {
+    0% {width: 150px;}
+    50% {width: 450px;}
+    100%{width: 150px;}
+}
+
+.table_1{
+    height: 300px;
+    border: 1px solid #000;
+}
+.box_1{
+    border: 1px solid rgb(197, 209, 20);
+}
+.box_1:hover{
+    background: green;
+}
+.link_1{
+    text-align: center;
+    display: block;
+  
+    color: black;
+    text-decoration: none;
+}
+.caption{
+    text-align: right;
+}
+
+.table_2{
+    text-align: center;
+    width: 100%;
+    height: 300px;
+    border: 1px solid #000;
+}
+
+.odd{
+    background-color: chocolate;
+    border-left: 3px dashed green;
+}
+.even{
+    background-color: gold;
+    border-left: 3px dashed green;
+}
