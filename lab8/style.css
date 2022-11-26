@@ -1,0 +1,73 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.back{
+    background: url("a.jpg")  ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.title{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.list{
+    background-color: gold;
+    shape-outside: margin-box;
+    padding: 0;
+    margin: 0 auto;
+    width: 30vw;
+    border: 1px solid #000;
+    border-radius: 10px;
+    text-align: center;
+}
+.list_item{
+    padding: 5px 0 ;
+    list-style-type: none;
+}
+.list_item:hover{
+
+    border-radius: 10px;
+    background-color: rgb(224, 153, 20);
+}
+.list__inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.list__shape{
+    shape-outside: circle(50%);
+    width: 100px;
+    height: 100px;
+    color: #000;
+    background-color: white;
+    
+}
+.list__shape.fork{
+    clip-path: polygon(33.92% 25.8%, 37.64% 25.8%, 41.05% 39.31%, 45.89% 25.8%, 51.55% 25.8%, 54.17% 39.31%, 57.85% 25.8%, 62.21% 25.8%, 62.21% 44.67%, 52.25% 44.67%, 52.25% 75%, 43.25% 75%, 43.25% 44.67%, 33.92% 44.67%);
+}
+
+.list__shape.bowl{
+    clip-path: polygon(10.88% 23.93%, 93.5% 23.93%, 93.5% 42.28%, 61.72% 67.58%, 40.99% 67.58%, 10.88% 42.28%);
+}
+.list__shape.drinks{
+    clip-path: polygon(23.5% 24.5%, 58.5% 24.5%, 71.58% 1.86%, 73.85% 6.69%, 62.2% 24.5%, 73.5% 24.5%, 58.5% 74.5%, 41.5% 74.5%);
+}
+
+.list__shape.desert{
+    clip-path: polygon(25% 25%, 35.5% 14%, 49.43% 7.9%, 63.86% 14%, 75% 25%, 49.43% 75%, 49.43% 75%);
+
+}
+
+@media projection {
+    .list__shape{
+        
+        width: 200px;
+        height: 200px;
+      
+    }
+}
